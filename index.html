@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>국립전주박물관</title>
+ <link href="css/reset.css" rel="stylesheet">
+ <link href="css/swiper-bundle.css" rel="stylesheet">
+ <link href="css/style.css" rel="stylesheet">
+ <script src="js/jquery-3.7.1.min.js"></script>
+ <script src="js/swiper-bundle.js"></script>
+ <script src="js/script.js" defer></script>
+</head>
+<body>
+ <header class="header">
+  <div class="h_top">
+   <ul class="gnb">
+    <li><a href="#">홈으로</a></li>
+    <li><a href="#">어린이박물관</a></li>
+    <li><a href="#">로그인</a></li>
+    <li>
+     <button type="button">LANGUAGE</button>
+     <ul class="lang">
+      <li><a href="#">English</a></li>
+      <li><a href="#">Chinese</a></li>
+      <li><a href="#">Japanese</a></li>
+     </ul>
+    </li>
+   </ul>
+  </div><!--100% * 36px-->
+  <nav class="nav">
+   <div class="logo">
+    <a href="#"><img src="imgs/img/logo.png" alt="logo"></a>
+   </div>
+   <ul class="menu">
+    <li>
+     <a href="#">관람정보</a>
+     <ul class="sub">
+      <li><a href="#">관람안내</a></li>
+      <li><a href="#">시설안내</a></li>
+      <li><a href="#">주요일정</a></li>
+      <li><a href="#">박물관소개</a></li>
+      <li><a href="#">박물관소식</a></li>
+      <li><a href="#">오시는길</a></li>
+     </ul>
+    </li>
+    <li>
+     <a href="#">전시</a>
+     <ul class="sub">
+      <li><a href="#">상설전시</a></li>
+      <li><a href="#">특별전시</a></li>
+      <li><a href="#">온라인전시관</a></li>
+      <li><a href="#">대관전시</a></li>
+      <li><a href="#">전시도록</a></li>
+      <li><a href="#">전시해설</a></li>
+     </ul>
+    </li>
+    <li>
+     <a href="#">교육·행사</a>
+     <ul class="sub">
+      <li><a href="#">교육·행사·공연 알림</a></li>
+      <li><a href="#">교육프로그램</a></li>
+      <li><a href="#">문화행사</a></li>
+      <li><a href="#">문화공연</a></li>
+      <li><a href="#">교육자료실</a></li>
+      <li><a href="#">온라인문화체험실</a></li>
+      <li><a href="#">예약확인/취소</a></li>
+     </ul>
+    </li>
+    <li>
+     <a href="#">소장품</a>
+     <ul class="sub">
+      <li><a href="#">소장품검색</a></li>
+      <li><a href="#">국보·보물</a></li>
+      <li><a href="#">대표유물</a></li>
+      <li><a href="#">수어로 보는 소장품</a></li>
+      <li><a href="#">열람·복제안내</a></li>
+      <li><a href="#">기증·기탁안내</a></li>
+     </ul>
+    </li>
+    <li>
+     <a href="#">학술</a>
+     <ul class="sub">
+      <li><a href="#">보존과학</a></li>
+      <li><a href="#">학술조사</a></li>
+      <li><a href="#">발간도서</a></li>
+      <li><a href="#">국제교류</a></li>
+     </ul>
+    </li>
+    <li>
+     <a href="#">정보공개</a>
+     <ul class="sub">
+      <li><a href="#">정보공개제도</a></li>
+      <li><a href="#">사전정보공표</a></li>
+      <li><a href="#">정보공개목록</a></li>
+      <li><a href="#">정보공개자료</a></li>
+      <li><a href="#">공공데이터개방</a></li>
+      <li><a href="#">전자민원</a></li>
+      <li><a href="#">110정부민원안내콜</a></li>
+      <li><a href="#">행동강령신고상담</a></li>
+     </ul>
+    </li>
+   </ul>
+   <ul class="h_icons">
+    <li><a href="#">박물관소개</a></li>
+    <li><a href="#"><img src="imgs/h_icon1.png" alt=""></a></li>
+    <li><a href="#"><img src="imgs/h_icon2.png" alt=""></a></li>
+   </ul>
+   
+   <div class="sub_bg">
+    </div>
+   </div><!-- sub bg end-->
+   <!-- mobile 구역 -->
+   <div class="mobile">
+    <div class="m_btn">
+     <img src="imgs/h_icon2.png" alt="">
+    </div><!-- m_btn end-->
+    <div class="m_nav_bg">
+     <div class="m_close">
+      <span></span>
+      <span></span>
+     </div>
+     <div class="m_nav_bg_box"></div>
+
+     <div class="m_nav">
+      <ul class="m_nav_top">
+       <li>
+        <a href="#"><img src="imgs/sitemap.png" alt=""></a>
+       </li>
+       <li><a href="#">국립광주박물관</a></li>
+       <li><a href="#">LANGUAGE</a></li>
+      </ul>
+      <ul class="m_menu">
+       <li>
+        <a href="#">관람정보</a>
+        <ul class="m_sub">
+          <li><a href="#">관람안내</a></li>
+          <li><a href="#">시설안내</a></li>
+          <li><a href="#">주요일정</a></li>
+          <li><a href="#">박물관소개</a></li>
+          <li><a href="#">박물관소식</a></li>
+          <li><a href="#">오시는길</a></li>
+        </ul>
+       </li>
+       <li>
+        <a href="#">전시</a>
+        <ul class="m_sub">
+          <li><a href="#">상설전시</a></li>
+          <li><a href="#">특별전시</a></li>
+          <li><a href="#">온라인전시관</a></li>
+          <li><a href="#">대관전시</a></li>
+          <li><a href="#">전시도록</a></li>
+          <li><a href="#">전시해설</a></li>
+        </ul>
+       </li>
+       <li>
+        <a href="#">교육·행사</a>
+        <ul class="m_sub">
+          <li><a href="#">교육·행사·공연 알림</a></li>
+          <li><a href="#">교육프로그램</a></li>
+          <li><a href="#">문화행사</a></li>
+          <li><a href="#">문화공연</a></li>
+          <li><a href="#">교육자료실</a></li>
+          <li><a href="#">온라인문화체험실</a></li>
+          <li><a href="#">예약확인/취소</a></li>
+        </ul>
+       </li>
+       <li>
+        <a href="#">소장품</a>
+        <ul class="m_sub">
+          <li><a href="#">소장품검색</a></li>
+          <li><a href="#">국보·보물</a></li>
+          <li><a href="#">대표유물</a></li>
+          <li><a href="#">수어로 보는 소장품</a></li>
+          <li><a href="#">열람·복제안내</a></li>
+          <li><a href="#">기증·기탁안내</a></li>
+        </ul>
+       </li>
+       <li>
+        <a href="#">학술</a>
+        <ul class="m_sub">
+          <li><a href="#">보존과학</a></li>
+          <li><a href="#">학술조사</a></li>
+          <li><a href="#">발간도서</a></li>
+          <li><a href="#">국제교류</a></li>
+        </ul>
+       </li>
+       <li>
+        <a href="#">정보공개</a>
+        <ul class="m_sub">
+          <li><a href="#">정보공개제도</a></li>
+          <li><a href="#">사전정보공표</a></li>
+          <li><a href="#">정보공개목록</a></li>
+          <li><a href="#">정보공개자료</a></li>
+          <li><a href="#">공공데이터개방</a></li>
+          <li><a href="#">전자민원</a></li>
+          <li><a href="#">110정부민원안내콜</a></li>
+          <li><a href="#">행동강령신고상담</a></li>
+        </ul>
+       </li>
+      </ul>
+     </div><!-- m_nav end -->
+    </div><!--m_nav_bg end-->
+
+   </div>
+  </nav><!--100% * 70px-->
+ </header>
+  <div class="main">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <img src="imgs/img/main1.jpg" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img src="imgs/img/main2.jpg" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img src="imgs/img/main3.jpg" alt="">
+      </div>
+    </div><!-- swiper-wrapper end -->
+
+    <div class="btn btn_prev">
+      <img src="imgs/main_prev.png" alt="">
+    </div>
+    <div class="btn btn_next">
+      <img src="imgs/main_next.png" alt="">
+    </div>
+
+    <div class="swiper-pagination"></div>
+
+    <ul class="main_ctrls">
+      <li class="main_play">
+        <img src="imgs/main_play.png" alt="">
+      </li><!--20*20-->
+      <li class="main_pause">
+        <img src="imgs/main_pause.png" alt="">
+      </li>
+    </ul>
+
+  </div><!-- main end-->
+  <div class="contents">
+   <ul class="con1">
+    <li>
+     <a href="#">
+      <img src="imgs/img/con1_1.png" alt="">
+      <span>통합검색/예약</span>
+      <img src="imgs/con1_1_2.png" alt="">
+     </a>
+    </li>
+    <li>
+     <a href="#">
+      <img src="imgs/img/con1_2.png" alt="">
+      <span>오시는 길</span>
+      <img src="imgs/con1_1_2.png" alt="">
+     </a>
+    </li>
+    <li>
+     <a href="#">
+      <img src="imgs/img/con1_3.png" alt="">
+      <img src="imgs/img/logo2.png" alt="">
+     </a>
+    </li>
+    <li>
+     <a href="#">
+      <img src="imgs/img/con1_4.png" alt="">
+      <span>온라인 뮤지엄</span>
+      <img src="imgs/img/logo3.png" alt="">
+     </a>
+    </li>
+   </ul>
+
+   <div class="con2">
+    <div class="con2box box1">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <a href="#"><img src="imgs/popupzone1.jpg" alt=""></a>
+        </div><!-- slide 1 end-->
+        <div class="swiper-slide">
+          <a href="#"><img src="imgs/popupzone2.jpg" alt=""></a>
+        </div><!-- slide 2 end-->
+      </div><!-- swiper-wrapper end-->
+      <div class="box1_ctrls">
+        <p>팝업존</p>
+        <ul class="box1_btns">
+          <li class="swiper-pagination"></li>
+          <li class="box1_prev"><img src="imgs/con2box1_prev.png" alt=""></li>
+          <li>  
+            <img src="imgs/con2box1_play.png" alt="" class="box1_play">
+            <img src="imgs/con2box1_pause.png" alt="" class="box1_pause">  
+          </li>
+          <li class="box1_next"><img src="imgs/con2box1_next.png" alt=""></li>
+        </ul>
+      </div>
+    </div><!-- box1 end-->
+    <div class="con2box box2">
+      <h2>10:00~18:00</h2>
+      <p>
+        입장마감: 17:30<br>
+        1월 1일, 설날·추석 당일
+      </p>
+      <ul>
+        <li>
+          <span>상설<br>전시</span>
+          <p>
+            10:00~18:00<br>
+            2017년 1월부터 월요일에도개관합니다.
+          </p>
+        </li>
+        <li>
+          <span>어린이<br>박물관</span>
+          <p>
+            10:00~17:30<br>
+            1월 1일, 설날·추석 당일
+          </p>
+        </li>
+        <li>
+          <span>특별<br>전시</span>
+          <p>
+            전시에 따라 변동됩니다.
+          </p>
+        </li>
+      </ul>
+    </div>
+    <div class="con2box box3">
+      <div>
+        <div class="box3_title">
+          <p>교육안내</p>
+          <p>국립전주박물관에서 열리는<br>다양한 교육을 경험해 보세요</p>
+        </div>
+        <a href="#"><img src="imgs/mcont1_box_arr.png" alt=""></a>
+      </div>
+      <div>
+        <div class="box3_title">
+          <p>문화행사</p>
+          <p>국립전주박물관에서 열리는<br>문화행사를 여러분께 소개합니다.</p>
+        </div>
+        <a href="#"><img src="imgs/mcont1_box_arr.png" alt=""></a>
+      </div>
+    </div><!-- box3 end-->
+    <div class="con2box box4">
+      <p>Jeonju National Museum</p>
+      <p>아시아 도자문화 교류 거점</p>
+      <p>국립전주박물관 브랜드</p>
+      <ul class="box4list">
+        <li>
+          <a href="#">
+            <span></span><!--22*22-->
+            <span>뉴스레터</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span></span><!--22*22-->
+            <span>학술총서</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span></span><!--22*22-->
+            <span>조사연구</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span></span><!--22*22-->
+            <span>학술지</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span></span><!--22*22-->
+            <span>도자아카이브</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="con2box box5">
+      <ul class="tab_title">
+        <li class="active">새소식</li> 
+        <li>교육프로그램 공지</li>
+        <li><a href="#">+</a></li>
+      </ul>
+      <div class="tab_box">
+        <ul class="notice notice1">
+          <li>
+            <a href="#">국립전주박물관 기획운영과 기간제근로자(휴직대체, 홍보) 채용시험 최종합격자 공고</a>
+            <span>2025.04.21</span>
+          </li>
+          <li>
+            <a href="#">국립전주박물관 기획운영과 기간제근로자(휴직대체, 홍보) 채용시험 최종합격자 공고</a>
+            <span>2025.04.21</span>
+          </li>
+          <li>
+            <a href="#">국립전주박물관 기획운영과 기간제근로자(휴직대체, 홍보) 채용시험 최종합격자 공고</a>
+            <span>2025.04.21</span>
+          </li>
+          <li>
+            <a href="#">국립전주박물관 기획운영과 기간제근로자(휴직대체, 홍보) 채용시험 최종합격자 공고</a>
+            <span>2025.04.21</span>
+          </li>
+          <li>
+            <a href="#">국립전주박물관 기획운영과 기간제근로자(휴직대체, 홍보) 채용시험 최종합격자 공고</a>
+            <span>2025.04.21</span>
+          </li>
+          <li>
+            <a href="#">국립전주박물관 기획운영과 기간제근로자(휴직대체, 홍보) 채용시험 최종합격자 공고</a>
+            <span>2025.04.21</span>
+          </li>
+        </ul>
+        <ul class="notice notice2">
+          <li>
+            <a href="#">[청소년/단체] 고고학자와 함께하는 고려청자 몽타주 교육생 모집</a>
+            <span>2025-02-17</span>
+          </li>
+          <li>
+            <a href="#">[청소년/단체] 고고학자와 함께하는 고려청자 몽타주 교육생 모집</a>
+            <span>2025-02-17</span>
+          </li>
+          <li>
+            <a href="#">[청소년/단체] 고고학자와 함께하는 고려청자 몽타주 교육생 모집</a>
+            <span>2025-02-17</span>
+          </li>
+          <li>
+            <a href="#">[청소년/단체] 고고학자와 함께하는 고려청자 몽타주 교육생 모집</a>
+            <span>2025-02-17</span>
+          </li>
+          <li>
+            <a href="#">[청소년/단체] 고고학자와 함께하는 고려청자 몽타주 교육생 모집</a>
+            <span>2025-02-17</span>
+          </li>
+          <li>
+            <a href="#">[청소년/단체] 고고학자와 함께하는 고려청자 몽타주 교육생 모집</a>
+            <span>2025-02-17</span>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+    <div class="con2box box6">
+      <div class="box6_left">
+        <p>월간소식지</p>
+        <p>
+          국립전주박물관의<br>소식을 전해드립니다.
+        </p>
+        <a href="#">신청하기<img src="imgs/mcont1_box_arr.png" alt=""></a>
+        <a href="#">소식지보기<img src="imgs/mcont1_box_arr.png" alt=""></a>
+      </div>
+      <img src="imgs/webzne_img01_02.jpg" alt="">
+    </div>
+   </div>
+
+  </div><!-- contents end-->
+
+
+  <footer class="footer">
+    <div class="f_top">
+      <ul class="f_menu">
+        <li><a href="#">박물관소개</a></li>
+        <li><a href="#">오시는길</a></li>
+        <li><a href="#">개인정보처리방침</a></li>
+        <li><a href="#">이메일무단수집거부</a></li>
+        <li><a href="#">저작권정책</a></li>
+      </ul><!-- f_menu end -->
+
+      <ul class="family">
+        <li>
+          <button type="button">관련사이트</button>
+          <ul class="family_list">
+            <li><a href="#">국립중앙박물관</a></li>
+            <li><a href="#">국립경주박물관</a></li>
+            <li><a href="#">국립공주박물관</a></li>
+            <li><a href="#">국립김해박물관</a></li>
+            <li><a href="#">국립나주박물관</a></li>
+            <li><a href="#">국립대구박물관</a></li>
+            <li><a href="#">국립부여박물관</a></li>
+            <li><a href="#">국립익산박물관</a></li>
+            <li><a href="#">국립전주박물관</a></li>
+            <li><a href="#">국립제주박물관</a></li>
+            <li><a href="#">국립진주박물관</a></li>
+            <li><a href="#">국립청주박물관</a></li>
+            <li><a href="#">국립춘천박물관</a></li>
+            <li><a href="#">국립박물관문화재단</a></li>
+          </ul>
+        </li>
+        <li>
+          <button type="button">전주문화기관</button>
+          <ul class="family_list">
+            <li><a href="#">국립중앙박물관</a></li>
+            <li><a href="#">국립경주박물관</a></li>
+            <li><a href="#">국립공주박물관</a></li>
+            <li><a href="#">국립김해박물관</a></li>
+            <li><a href="#">국립나주박물관</a></li>
+            <li><a href="#">국립대구박물관</a></li>
+            <li><a href="#">국립부여박물관</a></li>
+            <li><a href="#">국립익산박물관</a></li>
+            <li><a href="#">국립전주박물관</a></li>
+            <li><a href="#">국립제주박물관</a></li>
+            <li><a href="#">국립진주박물관</a></li>
+            <li><a href="#">국립청주박물관</a></li>
+            <li><a href="#">국립춘천박물관</a></li>
+            <li><a href="#">국립박물관문화재단</a></li>
+            <li><a href="#">국립제주박물관</a></li>
+            <li><a href="#">국립진주박물관</a></li>
+            <li><a href="#">국립청주박물관</a></li>
+            <li><a href="#">국립춘천박물관</a></li>
+            <li><a href="#">국립박물관문화재단</a></li>
+          </ul>
+        </li>
+        <li>
+          <button type="button">전국유관기관</button>
+          <ul class="family_list">
+            <li><a href="#">국립중앙박물관</a></li>
+            <li><a href="#">국립경주박물관</a></li>
+            <li><a href="#">국립공주박물관</a></li>
+            <li><a href="#">국립김해박물관</a></li>
+            <li><a href="#">국립나주박물관</a></li>
+            <li><a href="#">국립대구박물관</a></li>
+            <li><a href="#">국립부여박물관</a></li>
+            <li><a href="#">국립익산박물관</a></li>
+            <li><a href="#">국립전주박물관</a></li>
+            <li><a href="#">국립제주박물관</a></li>
+            <li><a href="#">국립진주박물관</a></li>
+            <li><a href="#">국립청주박물관</a></li>
+            <li><a href="#">국립춘천박물관</a></li>
+            <li><a href="#">국립박물관문화재단</a></li>
+          </ul>
+        </li>
+      </ul><!-- family end -->
+    </div><!-- f_top end -->
+
+    <div class="f_bottom">
+      <div class="copyright">우)55070 전북특별자치도 전주시 완산구 쑥고개로 249<br>TEL : 063)223-5651~2 FAX : 063)223-5653<br>
+        Copyright 2021 © JEONJU NATIONAL MUSEUM ALL RIGHTS RESERVED.</div><!-- copyright end -->
+
+      <div class="f_icons">
+        <img src="imgs/mark.png" alt="x">
+        <ul class="sns">
+        <li><a href=""><img src="imgs/sns1.png" alt="x"></a></li>
+        <li><a href=""><img src="imgs/sns2.png" alt="x"></a></li>
+        <li><a href=""><img src="imgs/sns3.png" alt="x"></a></li>
+        <li><a href=""><img src="imgs/sns4.png" alt="x"></a></li>
+        </ul>
+        <img src="imgs/f_open.png" alt="x">
+      </div><!-- f_icons end -->
+    </div><!-- f_bottom end -->
+  </footer>
+</body>
+</html>
